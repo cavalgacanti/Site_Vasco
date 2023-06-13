@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background: url(../Imagens/imagem_teste.png) center center no-repeat fixed;
+    background-size: cover;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cabecalho #menu ul {
+    display: flex; 
+    justify-content: center;
+    background-color: black;
+}
+
+#cabecalho #menu li{
+    list-style: none;
+}
+
+#cabecalho #menu a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+#cabecalho #menu a:hover{
+    background-color: gray;
+}
+
+#historia {
+    padding: 10px;
+    color: white;
+    padding-top: 50px;
+}
+
+#historia p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#bg_historia{
+    background-color: #000000ba;
+    width: 1200px;
+}
+
+
+#cruz{
+    display: flex;
+    justify-content: center;
+}
+
+#rodape {
+    background-color: #000;
+    padding: 30px;
+    color: #ccc;
+    text-align: center;
+}
+
+#rodape a {
+    color: #06c;
+    text-decoration: none;
+}
+
+#rodape a:hover{
+    text-decoration: underline;
+}
+
+#bg_historia .container img{
+    display: block;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+#bg_estadio{
+    background-color: #000000ba;
+    width: 1200px;
+}
+
+#camisas_negras{
+    padding: 10px;
+    color: white;
+    padding-top: 50px;
+}
+
+#estadio img{
+    width: 600px;
+}
+
+li{
+    list-style: none;
+}
